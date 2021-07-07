@@ -3,22 +3,97 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C1A38BD2695DF7100A5E68E /* AnimalGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1A38BC2695DF7100A5E68E /* AnimalGridItem.swift */; };
+		7C230FED2690FE5F00F93872 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C230FEC2690FE5F00F93872 /* CoverImageView.swift */; };
+		7C230FF02690FF6C00F93872 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C230FEF2690FF6C00F93872 /* CoverImageModel.swift */; };
+		7C230FF32691001500F93872 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C230FF22691001500F93872 /* CodableBundleExtension.swift */; };
+		7C230FF52691087200F93872 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C230FF42691087100F93872 /* AnimalListItemView.swift */; };
+		7C230FF726910A5400F93872 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C230FF626910A5400F93872 /* AnimalModel.swift */; };
+		7C230FF92691150800F93872 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C230FF82691150800F93872 /* AnimalDetailView.swift */; };
+		7C230FFB269119DA00F93872 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C230FFA269119DA00F93872 /* HeadingView.swift */; };
+		7C230FFD26911C3800F93872 /* ImageGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C230FFC26911C3800F93872 /* ImageGalleryView.swift */; };
+		7C37A1F32694B0C6004BD7D3 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37A1F22694B0C6004BD7D3 /* LocationModel.swift */; };
+		7C37A1F52694D0FE004BD7D3 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37A1F42694D0FE004BD7D3 /* MotionAnimationView.swift */; };
+		7CAF5FD42692170900B526B8 /* VideoListViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF5FD32692170900B526B8 /* VideoListViewer.swift */; };
+		7CAF5FD726921FDB00B526B8 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF5FD626921FDB00B526B8 /* VideoPlayerHelper.swift */; };
+		7CAF5FD9269220B200B526B8 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF5FD8269220B200B526B8 /* VideoPlayerView.swift */; };
 		7CD27DF0268F7C2600DBF18D /* National_GeographicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD27DEF268F7C2600DBF18D /* National_GeographicApp.swift */; };
 		7CD27DF2268F7C2600DBF18D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD27DF1268F7C2600DBF18D /* ContentView.swift */; };
 		7CD27DF4268F7C2700DBF18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27DF3268F7C2700DBF18D /* Assets.xcassets */; };
 		7CD27DF7268F7C2700DBF18D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27DF6268F7C2700DBF18D /* Preview Assets.xcassets */; };
+		7CD27E08268F7F1E00DBF18D /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27DFE268F7F1C00DBF18D /* cheetah.mp4 */; };
+		7CD27E09268F7F1E00DBF18D /* lion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27DFF268F7F1C00DBF18D /* lion.mp4 */; };
+		7CD27E0A268F7F1E00DBF18D /* hippo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27E00268F7F1C00DBF18D /* hippo.mp4 */; };
+		7CD27E0B268F7F1E00DBF18D /* ostrich.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27E01268F7F1C00DBF18D /* ostrich.mp4 */; };
+		7CD27E0C268F7F1E00DBF18D /* gorilla.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27E02268F7F1D00DBF18D /* gorilla.mp4 */; };
+		7CD27E0D268F7F1E00DBF18D /* rhino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27E03268F7F1D00DBF18D /* rhino.mp4 */; };
+		7CD27E0E268F7F1E00DBF18D /* lioness.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27E04268F7F1D00DBF18D /* lioness.mp4 */; };
+		7CD27E0F268F7F1E00DBF18D /* giraffe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27E05268F7F1D00DBF18D /* giraffe.mp4 */; };
+		7CD27E10268F7F1E00DBF18D /* elephant.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27E06268F7F1E00DBF18D /* elephant.mp4 */; };
+		7CD27E11268F7F1E00DBF18D /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27E07268F7F1E00DBF18D /* zebra.mp4 */; };
+		7CD27E17268F7FA400DBF18D /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27E13268F7FA400DBF18D /* videos.json */; };
+		7CD27E18268F7FA400DBF18D /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27E14268F7FA400DBF18D /* covers.json */; };
+		7CD27E19268F7FA400DBF18D /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27E15268F7FA400DBF18D /* animals.json */; };
+		7CD27E1A268F7FA400DBF18D /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CD27E16268F7FA400DBF18D /* locations.json */; };
+		7CD27E1E268F845500DBF18D /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD27E1D268F845500DBF18D /* VideoListView.swift */; };
+		7CD27E20268F847100DBF18D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD27E1F268F847100DBF18D /* MapView.swift */; };
+		7CD27E22268F84A200DBF18D /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD27E21268F84A200DBF18D /* GalleryView.swift */; };
+		7CD27E24268F84BD00DBF18D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD27E23268F84BD00DBF18D /* MainView.swift */; };
+		7CDE9BC32691C6660021FA8A /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE9BC22691C6660021FA8A /* InsetFactView.swift */; };
+		7CDE9BC72691D5AF0021FA8A /* NatGeoParksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE9BC62691D5AF0021FA8A /* NatGeoParksView.swift */; };
+		7CDE9BC92691E00E0021FA8A /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE9BC82691E00E0021FA8A /* ExternalWebLinkView.swift */; };
+		7CE538732692029600667D56 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE538722692029600667D56 /* VideoModel.swift */; };
+		7CE538752692036A00667D56 /* VideoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE538742692036A00667D56 /* VideoListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C1A38BC2695DF7100A5E68E /* AnimalGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItem.swift; sourceTree = "<group>"; };
+		7C230FEC2690FE5F00F93872 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		7C230FEF2690FF6C00F93872 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		7C230FF22691001500F93872 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		7C230FF42691087100F93872 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		7C230FF626910A5400F93872 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		7C230FF82691150800F93872 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		7C230FFA269119DA00F93872 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		7C230FFC26911C3800F93872 /* ImageGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryView.swift; sourceTree = "<group>"; };
+		7C37A1F22694B0C6004BD7D3 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		7C37A1F42694D0FE004BD7D3 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		7CAF5FD32692170900B526B8 /* VideoListViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListViewer.swift; sourceTree = "<group>"; };
+		7CAF5FD626921FDB00B526B8 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		7CAF5FD8269220B200B526B8 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		7CD27DEC268F7C2600DBF18D /* National Geographic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "National Geographic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD27DEF268F7C2600DBF18D /* National_GeographicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = National_GeographicApp.swift; sourceTree = "<group>"; };
 		7CD27DF1268F7C2600DBF18D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CD27DF3268F7C2700DBF18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CD27DF6268F7C2700DBF18D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CD27DFE268F7F1C00DBF18D /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
+		7CD27DFF268F7F1C00DBF18D /* lion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.mp4; sourceTree = "<group>"; };
+		7CD27E00268F7F1C00DBF18D /* hippo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hippo.mp4; sourceTree = "<group>"; };
+		7CD27E01268F7F1C00DBF18D /* ostrich.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ostrich.mp4; sourceTree = "<group>"; };
+		7CD27E02268F7F1D00DBF18D /* gorilla.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gorilla.mp4; sourceTree = "<group>"; };
+		7CD27E03268F7F1D00DBF18D /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
+		7CD27E04268F7F1D00DBF18D /* lioness.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lioness.mp4; sourceTree = "<group>"; };
+		7CD27E05268F7F1D00DBF18D /* giraffe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe.mp4; sourceTree = "<group>"; };
+		7CD27E06268F7F1E00DBF18D /* elephant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.mp4; sourceTree = "<group>"; };
+		7CD27E07268F7F1E00DBF18D /* zebra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zebra.mp4; sourceTree = "<group>"; };
+		7CD27E13268F7FA400DBF18D /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		7CD27E14268F7FA400DBF18D /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		7CD27E15268F7FA400DBF18D /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		7CD27E16268F7FA400DBF18D /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		7CD27E1B268F815600DBF18D /* National-Geographic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "National-Geographic-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7CD27E1D268F845500DBF18D /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		7CD27E1F268F847100DBF18D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = "National Geographic/App/MapView.swift"; sourceTree = SOURCE_ROOT; };
+		7CD27E21268F84A200DBF18D /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		7CD27E23268F84BD00DBF18D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7CDE9BC22691C6660021FA8A /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		7CDE9BC62691D5AF0021FA8A /* NatGeoParksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatGeoParksView.swift; sourceTree = "<group>"; };
+		7CDE9BC82691E00E0021FA8A /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
+		7CE538722692029600667D56 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		7CE538742692036A00667D56 /* VideoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +107,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C230FEB2690FE4000F93872 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7C230FEC2690FE5F00F93872 /* CoverImageView.swift */,
+				7C230FF42691087100F93872 /* AnimalListItemView.swift */,
+				7C230FF82691150800F93872 /* AnimalDetailView.swift */,
+				7C230FFA269119DA00F93872 /* HeadingView.swift */,
+				7C230FFC26911C3800F93872 /* ImageGalleryView.swift */,
+				7CDE9BC22691C6660021FA8A /* InsetFactView.swift */,
+				7CDE9BC62691D5AF0021FA8A /* NatGeoParksView.swift */,
+				7CDE9BC82691E00E0021FA8A /* ExternalWebLinkView.swift */,
+				7CE538742692036A00667D56 /* VideoListItem.swift */,
+				7CAF5FD32692170900B526B8 /* VideoListViewer.swift */,
+				7CAF5FD8269220B200B526B8 /* VideoPlayerView.swift */,
+				7C37A1F42694D0FE004BD7D3 /* MotionAnimationView.swift */,
+				7C1A38BC2695DF7100A5E68E /* AnimalGridItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C230FEE2690FF5400F93872 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C230FEF2690FF6C00F93872 /* CoverImageModel.swift */,
+				7C230FF626910A5400F93872 /* AnimalModel.swift */,
+				7CE538722692029600667D56 /* VideoModel.swift */,
+				7C37A1F22694B0C6004BD7D3 /* LocationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C230FF12690FFF500F93872 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7C230FF22691001500F93872 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7CAF5FD526921FC700B526B8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7CAF5FD626921FDB00B526B8 /* VideoPlayerHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		7CD27DE3268F7C2600DBF18D = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +173,16 @@
 		7CD27DEE268F7C2600DBF18D /* National Geographic */ = {
 			isa = PBXGroup;
 			children = (
-				7CD27DEF268F7C2600DBF18D /* National_GeographicApp.swift */,
-				7CD27DF1268F7C2600DBF18D /* ContentView.swift */,
+				7CD27E1C268F840F00DBF18D /* App */,
+				7C230FF12690FFF500F93872 /* Extension */,
+				7C230FEB2690FE4000F93872 /* View */,
+				7CAF5FD526921FC700B526B8 /* Helper */,
+				7CD27E12268F7F8F00DBF18D /* Data */,
+				7C230FEE2690FF5400F93872 /* Model */,
+				7CD27DFD268F7EDC00DBF18D /* Video */,
 				7CD27DF3268F7C2700DBF18D /* Assets.xcassets */,
 				7CD27DF5268F7C2700DBF18D /* Preview Content */,
+				7CD27E1B268F815600DBF18D /* National-Geographic-Info.plist */,
 			);
 			path = "National Geographic";
 			sourceTree = "<group>";
@@ -65,6 +193,47 @@
 				7CD27DF6268F7C2700DBF18D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CD27DFD268F7EDC00DBF18D /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				7CD27DFE268F7F1C00DBF18D /* cheetah.mp4 */,
+				7CD27E06268F7F1E00DBF18D /* elephant.mp4 */,
+				7CD27E05268F7F1D00DBF18D /* giraffe.mp4 */,
+				7CD27E02268F7F1D00DBF18D /* gorilla.mp4 */,
+				7CD27E00268F7F1C00DBF18D /* hippo.mp4 */,
+				7CD27DFF268F7F1C00DBF18D /* lion.mp4 */,
+				7CD27E04268F7F1D00DBF18D /* lioness.mp4 */,
+				7CD27E01268F7F1C00DBF18D /* ostrich.mp4 */,
+				7CD27E03268F7F1D00DBF18D /* rhino.mp4 */,
+				7CD27E07268F7F1E00DBF18D /* zebra.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		7CD27E12268F7F8F00DBF18D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7CD27E15268F7FA400DBF18D /* animals.json */,
+				7CD27E14268F7FA400DBF18D /* covers.json */,
+				7CD27E16268F7FA400DBF18D /* locations.json */,
+				7CD27E13268F7FA400DBF18D /* videos.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7CD27E1C268F840F00DBF18D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7CD27DEF268F7C2600DBF18D /* National_GeographicApp.swift */,
+				7CD27DF1268F7C2600DBF18D /* ContentView.swift */,
+				7CD27E1D268F845500DBF18D /* VideoListView.swift */,
+				7CD27E1F268F847100DBF18D /* MapView.swift */,
+				7CD27E21268F84A200DBF18D /* GalleryView.swift */,
+				7CD27E23268F84BD00DBF18D /* MainView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +272,7 @@
 				};
 			};
 			buildConfigurationList = 7CD27DE7268F7C2600DBF18D /* Build configuration list for PBXProject "National Geographic" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,8 +294,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD27E19268F7FA400DBF18D /* animals.json in Resources */,
+				7CD27E0D268F7F1E00DBF18D /* rhino.mp4 in Resources */,
+				7CD27E1A268F7FA400DBF18D /* locations.json in Resources */,
+				7CD27E0B268F7F1E00DBF18D /* ostrich.mp4 in Resources */,
+				7CD27E0E268F7F1E00DBF18D /* lioness.mp4 in Resources */,
+				7CD27E0A268F7F1E00DBF18D /* hippo.mp4 in Resources */,
+				7CD27E17268F7FA400DBF18D /* videos.json in Resources */,
+				7CD27E11268F7F1E00DBF18D /* zebra.mp4 in Resources */,
+				7CD27E0F268F7F1E00DBF18D /* giraffe.mp4 in Resources */,
+				7CD27E18268F7FA400DBF18D /* covers.json in Resources */,
 				7CD27DF7268F7C2700DBF18D /* Preview Assets.xcassets in Resources */,
+				7CD27E0C268F7F1E00DBF18D /* gorilla.mp4 in Resources */,
+				7CD27E09268F7F1E00DBF18D /* lion.mp4 in Resources */,
 				7CD27DF4268F7C2700DBF18D /* Assets.xcassets in Resources */,
+				7CD27E08268F7F1E00DBF18D /* cheetah.mp4 in Resources */,
+				7CD27E10268F7F1E00DBF18D /* elephant.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +321,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CD27DF2268F7C2600DBF18D /* ContentView.swift in Sources */,
+				7C230FF92691150800F93872 /* AnimalDetailView.swift in Sources */,
+				7C230FF52691087200F93872 /* AnimalListItemView.swift in Sources */,
+				7C37A1F32694B0C6004BD7D3 /* LocationModel.swift in Sources */,
+				7CAF5FD9269220B200B526B8 /* VideoPlayerView.swift in Sources */,
+				7CDE9BC32691C6660021FA8A /* InsetFactView.swift in Sources */,
+				7CD27E24268F84BD00DBF18D /* MainView.swift in Sources */,
+				7C230FED2690FE5F00F93872 /* CoverImageView.swift in Sources */,
+				7C230FF02690FF6C00F93872 /* CoverImageModel.swift in Sources */,
+				7C1A38BD2695DF7100A5E68E /* AnimalGridItem.swift in Sources */,
+				7C230FF726910A5400F93872 /* AnimalModel.swift in Sources */,
+				7CD27E20268F847100DBF18D /* MapView.swift in Sources */,
+				7CAF5FD42692170900B526B8 /* VideoListViewer.swift in Sources */,
+				7CAF5FD726921FDB00B526B8 /* VideoPlayerHelper.swift in Sources */,
 				7CD27DF0268F7C2600DBF18D /* National_GeographicApp.swift in Sources */,
+				7CDE9BC72691D5AF0021FA8A /* NatGeoParksView.swift in Sources */,
+				7CDE9BC92691E00E0021FA8A /* ExternalWebLinkView.swift in Sources */,
+				7C230FFD26911C3800F93872 /* ImageGalleryView.swift in Sources */,
+				7CE538732692029600667D56 /* VideoModel.swift in Sources */,
+				7CD27E1E268F845500DBF18D /* VideoListView.swift in Sources */,
+				7CD27E22268F84A200DBF18D /* GalleryView.swift in Sources */,
+				7CE538752692036A00667D56 /* VideoListItem.swift in Sources */,
+				7C37A1F52694D0FE004BD7D3 /* MotionAnimationView.swift in Sources */,
+				7C230FF32691001500F93872 /* CodableBundleExtension.swift in Sources */,
+				7C230FFB269119DA00F93872 /* HeadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +478,16 @@
 				DEVELOPMENT_TEAM = 47FU3Y4972;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "National-Geographic-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "National Geographic";
+				INFOPLIST_KEY_CFBundleName = "National Geographic";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,11 +513,16 @@
 				DEVELOPMENT_TEAM = 47FU3Y4972;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "National-Geographic-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "National Geographic";
+				INFOPLIST_KEY_CFBundleName = "National Geographic";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
